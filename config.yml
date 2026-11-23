@@ -1,0 +1,13 @@
+# Sneak + right-click: dash in the direction you are looking
+dash:
+  strength: 2.2          # higher = faster / farther
+  min-lift: 0.2          # small upward nudge so you slide off the ground
+  cooldown-seconds: 2
+
+# Right-click: launch straight up
+boost:
+  strength: 1.8          # ~1.5 is roughly 10+ blocks, ~2.0 is much higher
+  cooldown-seconds: 4
+
+# No fall damage for this long after using either ability
+fall-protection-seconds: 8

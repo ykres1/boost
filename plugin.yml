@@ -1,0 +1,17 @@
+name: BoostSword
+version: 1.0.0
+main: dev.boostsword.BoostSwordPlugin
+api-version: '1.21'
+description: A sword that dashes forward and boosts you high into the air.
+commands:
+  boostsword:
+    description: Give yourself (or someone else) the Skyrunner Blade, or reload the config.
+    usage: /boostsword [player|reload]
+    permission: boostsword.give
+permissions:
+  boostsword.use:
+    description: Allows using the Skyrunner Blade abilities.
+    default: true
+  boostsword.give:
+    description: Allows giving the sword and reloading the config.
+    default: op
